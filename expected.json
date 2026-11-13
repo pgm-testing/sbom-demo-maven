@@ -1,0 +1,24 @@
+{
+  "repository": "pgm-testing/sbom-demo-maven",
+  "action_revision": "ed68e4cc4c42a25a88a12f8ac26f520986851ec5",
+  "probes": [
+    {
+      "name": "java_stellar_sdk",
+      "purl": "pkg:maven/network.lightsail/stellar-sdk",
+      "version": "6.0.0",
+      "repo": "pkg:github/lightsail-network/java-stellar-sdk"
+    },
+    {
+      "name": "kmp_stellar_sdk",
+      "purl": "pkg:maven/com.soneso.stellar/stellar-sdk-jvm",
+      "version": "1.16.0",
+      "repo": "pkg:github/Soneso/kmp-stellar-sdk"
+    },
+    {
+      "name": "Gson control",
+      "purl": "pkg:maven/com.google.code.gson/gson",
+      "version": "2.15.0",
+      "repo": null
+    }
+  ]
+}
